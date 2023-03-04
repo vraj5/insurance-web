@@ -1,0 +1,466 @@
+:root{
+    --primary-color: #4f46ef;
+    --black: #000;
+    --white: #fff;
+    --heading-color: #161c2d;
+    --info-color: #94a3b8;
+    --back-bg: #f9fafb;
+}
+
+@media(max-width:1342px){
+    .container{
+        padding-left:130px;
+        padding-right:130px;
+    }
+
+    /* =======BANNER======= */
+    .banner .banner-img{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .banner .banner-data p{
+        padding-right: 30px;
+    }
+
+    /* ======RATING====== */
+    .rating .rating-box{
+        width: 350px;
+    }
+}
+
+@media(max-width:1200px){
+    .container{
+        padding-left:108px;
+        padding-right:108px;
+    }
+
+    /* ======BANNER====== */
+    .banner .banner-data p{
+        max-width: 500px;
+    }
+
+    /* ======INSURANCE====== */
+    .insurance .insurance-data p{
+        max-width: 400px;
+    }
+
+    /* ======SIGN-UP====== */
+    .sign-up .signup-data p{
+        max-width: 400px;
+    }
+
+    /* ======FOOTER====== */
+    footer p{
+        max-width: 300px;
+    }
+
+}
+
+@media(max-width:1024px){
+    .container{
+        padding-left:60px;
+        padding-right:60px;
+    }
+
+    /* ======BANNER====== */
+    .banner{
+        padding-bottom: 0;
+    }
+    .banner .banner-data h1{
+        font-size: 30px;
+        max-width: 350px;
+    }
+    .banner .banner-data p{
+        max-width: 350px;
+    }
+
+    /* ======FORWARD-SLIDER====== */
+    .forward .heading{
+        margin-left: 100px;
+    }
+    .forward .col-2{
+        width: 25%;
+    }
+    .forward .col-2 a{
+        margin-bottom: 20px;
+    }
+
+    /* ======PACKAGES====== */
+    .packages .col-6{
+        width: 100%;
+    }
+    .packages{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .packages .data{
+        position: absolute;
+        top: 10%;
+    }
+    .packages .data .data-1{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .packages .data .data-2{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .packages .package-data h2{
+        margin: 100px auto 20px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .packages .package-data p{
+        margin: 0 auto 40px;
+        text-align: center;
+        line-height: 23px;
+        max-width: 580px;
+    }
+    .packages .package-btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* ======RATING====== */
+    .rating{
+        padding: 40px;
+    }
+    .rating .rating-box{
+        width: 500px;
+        padding-left: 15px;
+    }
+
+    /* ======BLOGS====== */
+    .blogs .blog-img{
+        display: inline-block;
+    }
+    .blogs .row{
+        display: flex;
+    }
+    .blogs .blog-img .col-4{
+        width: 100%;
+        margin: 5px;
+    }
+
+    /* ======FOOTER====== */
+    footer .col-4{
+        width: 100%;
+    }
+    footer p{
+        max-width: 90%;
+    }
+    footer .icons{
+        display: flex;
+        justify-content: left;
+        margin-bottom: 50px;
+    }
+    footer .icons .icon-box{
+        margin-left: 5px;
+
+    }
+    footer .col-2{
+        width: 33.33%;
+    }
+    footer .col-3{
+        width: 33.33%;
+    }
+
+}
+
+@media(max-width:992px){
+    .container{
+        padding-left:40px;
+        padding-right:40px;
+    }
+
+    /* ======HEADER====== */
+    header button{
+        display: block;
+        border: none;
+        font-size: 24px;
+        background-color: transparent;
+    }
+    header .navbar{
+        position: fixed;
+    }
+    header .menu{
+        flex-direction: column;
+    }
+    header .menu a{
+        margin: 5px 10px;
+    }
+    header .navbar{
+        background-color: var(--back-bg);    
+        box-shadow: 0 2px 13px rgb(60 72 88 / 0.20);
+        width: 80%;
+        top: 18%;
+        left: 8%;
+        visibility: visible;
+        display: block;
+    }
+    header .menu-icon a:last-child{
+        margin-right: 5px;
+    }
+
+    /* ======INSURANCE====== */
+    .insurance{
+        max-width: 100%;
+    }
+    .insurance .insurance-data p{
+        max-width: 350px;
+    }
+
+    /* ======ABOUT====== */
+    .about #btns{
+        font-size: 12px;
+    }
+
+    /* ======RATING====== */
+    .rating{
+        padding: 100px;
+    }
+
+}
+
+@media(max-width:767px){
+    .container{ 
+        padding-left:30px;
+        padding-right:30px;
+    }
+
+    /* ======HEADER====== */
+    header .navbar{
+        background-color: var(--back-bg);    
+        box-shadow: 0 2px 13px rgb(60 72 88 / 0.20);
+        width: 100%;
+        top: 10%;
+        left: -18px;
+        visibility: visible;
+        display: block;
+    }
+
+    /* ======BANNER====== */
+    .banner .row{
+        display: block;
+    } 
+    .banner .col-7{
+        width: 100%;
+    }
+    .banner .col-5{
+        width: 100%;
+    }
+    .banner .banner-data{
+        margin-bottom: 40px;
+        padding-left: 30px;
+    }
+    .banner .banner-data p{
+        max-width: 100%;
+    }
+
+    /* ======FORWARD-SLIDER====== */
+    .forward .heading{
+        margin-left: 30px;
+    }
+    .forward .heading h2{
+        font-size: 24px;
+    }
+    .forward .heading p{
+        font-size: 15px;
+    }
+    .slider-img{
+        display: flex;
+        justify-content: center;
+    }
+    .forward .col-2{
+        width: 100% !important;
+    }
+    .forward .col-2 img{
+        margin-left: 10px;
+        border-radius: 10px;
+    }
+    .forward .col-2 a{
+        margin-left: 50px;
+    }
+
+    /* ======PACKAGES====== */
+    .packages .package-data h2{
+        font-size: 30px;
+    }
+    .packages .data p{
+        text-align: center;
+    }
+
+    /* ======PARTNERS====== */
+    .partners .col-2{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    /* ======INSURANCE====== */
+    .insurance{
+        width: 100%;
+    }
+    .insurance .col-6{
+        width: 100%;
+    }
+    .insurance .btn-1{
+        margin-top: 60px;
+    }
+    .insurance .insurance-data{
+        margin-left: 30px;
+    }
+    .insurance .insurance-data h3{
+        font-size: 24px;
+        max-width: 300px;
+        line-height: 35px;
+    }
+    .insurance .insurance-data p{
+        max-width: 100%;
+    }
+    .insurance .ins-btn{
+        font-size: 14px;
+    }
+
+    /* ======ABOUT====== */
+    .about .main-box{
+        margin-right: 0;
+    }
+    .about{
+        width: 100%;
+    }
+    .about .col-4{
+        width: 100%;
+    }
+    .about .col-8{
+        width: 100%;
+    }
+    .about .main-box{
+        margin-bottom: 30px;
+    }
+    .about .box-1 p{
+        font-size: 13px;
+    }
+    
+    /* ======RATING====== */
+    .rating{
+        padding: 40px;
+    }
+    .rating .rating-box{
+        width: 430px;
+    }
+    .rating .rating-box p{
+        font-size: 15px;
+    }
+
+    /* ======BLOGS====== */
+    .blogs .blog-img{
+        display: block;
+    }
+    .blogs .blog-img .col-4{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    /* ======SIGN-UP====== */
+    .sign-up .col-6{
+        width: 100%;
+    }
+    .sign-up .col-6:first-child{
+        padding: 0 20px;
+    }
+
+    /* ======FOOTER====== */
+    footer .col-2{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    footer .col-3{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    /* ======FOOTER-END====== */
+    .footer-end .col-6{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+        margin-bottom: 21px;
+    }
+    .footer-end .col-6 ul{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-end .col-6 ul li{
+        padding: 2px;
+        width: 6%;
+        height: 100%;
+    }
+
+}
+
+@media(max-width:576px){
+    .container{ 
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+    /* ======HEADER====== */
+    header .navbar{
+        background-color: var(--back-bg);    
+        box-shadow: 0 2px 13px rgb(60 72 88 / 0.20);
+        width: 100%;
+        top: 10%;
+        left: -18px;
+        visibility: visible;
+        display: block;
+    }
+
+    /* ======BANNER====== */
+    .banner p{
+        font-size: 14px;
+    }
+
+    /* ======PACKAGES====== */
+    .packages .package-data{
+        margin-top: 100px;
+    }
+    .packages .package-data h2{
+        font-size: 25px;
+        max-width: 300px;
+    }
+    .packages .package-data p{
+        font-size: 16px;
+        max-width: 300px;
+    }
+    .packages .data .data-1{
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .packages .data .data-2{
+        margin-left: 10px;
+    }
+    .packages{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* ======RATING====== */
+    .rating{
+        padding: 10px;
+        background-position-x: 60%;
+    }
+    .rating .rating-box{
+        width: 300px;
+    }
+
+
+    .blogs .container{ 
+        padding-right:20px;
+    }
+}

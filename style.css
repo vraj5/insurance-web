@@ -374,7 +374,7 @@ header button{
 
 /* ================ Packages ============= */
 .packages{
-    background-image: url(../img/package.png);
+    background-image: url(package.png);
     background-color: var(--primary-color);
     padding-top: 145px;
     padding-bottom: 145px;
